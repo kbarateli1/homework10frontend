@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+}
+.display{
+    display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+.nav-menu span {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 4px 7px;
+  box-shadow: 0 2px 4px rgba(75, 75, 75, 0.644);
+}
+.meinDiv {
+  display: flex;
+   flex-direction: column;
+  flex-wrap: wrap;
+   gap: 60px;  
+  padding-left: 180px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 600px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+.description :nth-child(3) {
+  color: #959595;
+  width: 800px;
+}
+.blueLinks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.blueLinks a {
+  background-color: #0865de;
+  color: white;
+  text-decoration: none;
+  padding: 6px 15px;
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 0;
+  box-shadow: 1px 2px 4px rgba(116, 138, 211, 0.589);
+}
+.whiteLinks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.whiteLinks a {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 6px 15px;
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 0;
+  box-shadow: 1px 2px 4px rgb(190, 187, 187);
+}
+
+.meinLinks {
+  display: flex;
+  gap: 80px;
+}
+img {
+  width: 600px;
+}
+.firstPage {
+  display: flex;
+ background-color: #F7F7F7;
+  gap: 30px;
+}
+.firsPageDesc {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+
+}
+.firsPageDesc a {
+  color: #002d69;
+  text-decoration: none;
+}
+span {
+  background-color: #0865de;
+  border-radius: 50%;
+  padding: 5px 8px;
+  color: white;
+}
+.text :nth-child(2) {
+  color: gray;
+  font-size: 12px;
+}
+.firsPageDesc p {
+  width: 500px;
+}
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* respons */
+
+@media only screen and (min-width: 668px) and (max-width: 1024px){
+    .nav-menu{
+        display: none;
+    }
+    .display{
+        display: block;
+    }
+    .description p{
+        width: 400px;
+    }
+    .description :nth-child(3){
+        width: 400px;
+    }
+    .meinDiv{
+        padding-left: 50px;
+      
+    }
+    .meinLinks{
+        display: block;
+    }
+    .firstPage{
+        display: block;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.692);
+        margin-right: 50px; 
+    }
+    .firsPageDesc p , h3 {
+        padding: 15px 50px;
+    }
+    .arrow a,span{
+        margin-left: 30px;
+        
+    }
+    .bigText{
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width: 668px){
+
+    .nav-menu{
+        display: none;
+    }
+    .display{
+        display: block;
+    }
+    .description p{
+        width: 400px;
+    }
+    .description :nth-child(3){
+        width: 400px;
+    }
+    .meinDiv{
+        padding-left: 50px;
+      
+    }
+    .meinLinks{
+        display: block;
+    }
+    .firstPage{
+        display: block;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.692);
+        margin-right: 50px; 
+    }
+    .firsPageDesc p , h3 {
+        padding: 15px 50px;
+    }
+    .arrow a,span{
+        margin-left: 30px;
+        
+    }
+    .bigText{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 260px) and (max-width: 374px){
+  *{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-menu{
+      display: none;
+  }
+  .display{
+      display: block;
+   }
+  .description p{
+      width: 250px;
+  }
+  .description :nth-child(3){
+      width: 350px;
+  }
+  .meinDiv{
+      padding-left: 20px;
+    
+  }
+  .meinLinks{
+      display: block;
+      
+  }
+  .blueLinks{
+    width: 300px;
+  }
+  .whiteLinks{
+    width: 300px;
+  }
+   .firstPage{
+      display: block;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.692);
+      margin-right: 50px; 
+  }
+  .pages .firstPage{
+    width: 300px;
+  }
+  .firsPageDesc p , h3 {
+      padding: 15px 50px;
+  }
+  .arrow a,span{
+      margin-left: 10px;
+      
+  }
+  .bigText{
+      display: none;
+  }
+  img{
+    width: 300px
+  }; 
+ 
+}

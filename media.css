@@ -1,0 +1,129 @@
+@media  (max-width:1024px){
+    .conteiner{
+        margin-left: -30px;
+    }
+    .startpart{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .startpart{
+        margin-top: -40px;
+        font-size: 20px;
+        line-height: 35px;
+        height: 49px;
+    }
+    .text-box{
+        margin-top: -40px;
+        width: 500px;
+        height: 200px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section{
+        margin-top: -60px;
+
+    }
+
+    .sec-wrapper{
+        margin-top: 61px;
+        margin-left: 0px;
+    }
+    .box1{
+        grid-template-columns: 60% 40%;
+        width: 500px;
+        height: 461px;
+    }
+    
+    .box1 h4{
+        margin-top: 280px;
+        margin-left: -250px;
+        font-size: 13px;
+        line-height: 31px;
+      
+
+    }
+    .box-p{
+        font-size: 14px;
+        line-height: 31px;
+        margin-left: -250px;
+       
+    }
+    .box1 p{
+        margin-left: -250px;
+       
+    }
+   
+    .box2{
+        grid-template-columns: 60% 40%;
+        width: 500px;
+        height: 461px;
+    }
+    .box2 h4{
+        margin-top: 280px;
+        margin-left: -250px;
+    }
+    .box2 p{
+      
+        margin-left: -250px;
+    }
+
+   img{
+    width: 500px;
+    height: 276px;
+
+   }
+   .box1-psection{
+       display: none;
+   }
+}@media  (max-width:780px){
+    .conteiner{
+        margin-left: -60px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 25px;
+        width: 314px;
+        height: 49px;   
+    }
+    .text-box{
+        font-size: 13px;
+        line-height: 25px;
+        color: #434343;
+        width: 315px;
+        height: 126px;
+        
+    }
+    .section{
+        margin-top: 29px;
+        width: 314px;
+
+    }
+    .grid-block{
+        width: 315px;
+       
+       
+    }
+    .box1{
+        width: 315px;
+       
+        
+
+    }
+    
+    .rightbox  {
+        position: relative;
+        left: 90px;
+      
+    }
+    .box2{
+        width: 315px;
+    }
+
+
+    
+    img{
+        width: 315px;
+        height: 276px;
+    }
+
+}
